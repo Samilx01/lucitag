@@ -27,7 +27,7 @@ async def start(event):
   await event.reply("**🏷️ FearlessRiseTagBot **\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Gruba Ekle ➕', 'https://t.me/FearlessRiseTagBot?startgroup=a')],
+		      [Button.url('Gruba Ekle ➕', 'https://t.me/FearlessRise_TagBot?startgroup=a')],
                       [Button.url('Sohbet', 'https://t.me/FearlessRise')],
                       [Button.url(' Kanal', 'https://t.me/FearlessRisebot')],
 		      [Button.url('Sahibim', 'https://t.me/SanalOfGod')],
@@ -39,7 +39,7 @@ async def help(event):
   helptext = "**🏷️ FearlessRiseTagBot Komutları**\n\n**/utag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url(' Gruba Ekle➕', 'https://t.me/FearlessRiseTagBot?startgroup=a')],
+                      [Button.url(' Gruba Ekle➕', 'https://t.me/FearlessRise_TagBot?startgroup=a')],
                       [Button.url('Sohbet', 'https://t.me/FearlessRise')],
                       [Button.url('Kanal', 'https://t.me/FearlessRisebot')],
 		      [Button.url('Sahibim', 'https://t.me/SanalOfGod')],
@@ -49,10 +49,10 @@ async def help(event):
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @FearlessRiseTagBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @FearlessRiseTagBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
+  helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @FearlessRise_TagBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @FearlessRiseTagBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url(' Gruba Ekle➕', 'https://t.me/FearlessRiseTagBot?startgroup=a')],
+                      [Button.url(' Gruba Ekle➕', 'https://t.me/FearlessRise_TagBot?startgroup=a')],
                     ),
                     link_preview=False
                    )
